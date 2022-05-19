@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <title>Localização</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Localização</h2>
+        </div>
+        <form action="#" id="form" class="form">
+            <div class="cep">
+                <label for="cep">Informe o CEP</label>
+                <input type="number" id="cep">
+                <div class="Testar" id="erro">Insira um CEP válido</div>
+            </div>
+            <div class="logradouro">
+                <label for="logradouro">Rua</label>
+                <input type="text" id="logradouro" readonly>
+            </div>
+            <div class="bairro">
+                <label for="bairro">Bairro</label><br>
+                <input type="text" id="bairro" readonly><br>
+            </div>
+            <div class="localidade">
+                <label for="localidade">Cidade</label>
+                <input type="text" id="localidade" readonly>
+            </div>
+            <div class="uf">
+                <label for="uf">UF</label>
+                <input type="text" id="uf" readonly>
+            </div>
+            <div class="ibge">
+                <label for="ibge">IBGE</label>
+                <input type="text" id="ibge" readonly>
+
+            </div>
+            <div class="ddd">
+                <label for="ddd">DDD</label>
+                <input type="text" id="ddd" readonly>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
